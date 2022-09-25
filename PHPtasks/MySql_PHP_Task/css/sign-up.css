@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap%27');
+* {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.row {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    margin-left: 30%;
+    background-color: #fff;
+    padding: 2% 2%;
+    width: 40%;
+    border-radius: 4%;
+}
+body {
+    background-color: #fff0db;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn2 {
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn1:hover,
+.btn2:hover {
+    background-color: black;
+    color: white;
+}
+.site-footer,
+.page-wrap:after {
+    text-align: center;
+    padding: 1%;
+    color: aliceblue;
+}
+.site-footer {
+    background: black;
+    position: sticky;
+}
+@media (min-width: 280px) and (max-width:600px) {
+    .row {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
